@@ -77,11 +77,11 @@ public class DadosRepository {
         Curso curso9 = new Curso("Fotografia para Iniciantes","35 horas", "Fundamentos de Fotografia");
         saveCurso(curso9);
 
-        TurmaCurso turmaCurso1 = new TurmaCurso("Palmas", 20, 19, "2/1/2023", "20/1/2023", "21/1/2023", "10/5/2023", findCursoById(1));
+        TurmaCurso turmaCurso1 = new TurmaCurso("Palmas", 15, 14, "2/1/2023", "20/1/2023", "21/1/2023", "10/5/2023", findCursoById(1));
         saveTurmaCurso(turmaCurso1);
-        TurmaCurso turmaCurso2 = new TurmaCurso("Palmas", 20, 19, "2/1/2023", "20/1/2023", "21/1/2023", "10/5/2023", findCursoById(2));
+        TurmaCurso turmaCurso2 = new TurmaCurso("Palmas", 15, 14, "2/1/2023", "20/1/2023", "21/1/2023", "10/5/2023", findCursoById(2));
         saveTurmaCurso(turmaCurso2);
-        TurmaCurso turmaCurso3 = new TurmaCurso("Palmas", 20, 20, "2/1/2023", "20/1/2023", "21/1/2023", "10/5/2023", findCursoById(3));
+        TurmaCurso turmaCurso3 = new TurmaCurso("Palmas", 15, 15, "2/1/2023", "20/1/2023", "21/1/2023", "10/5/2023", findCursoById(3));
         saveTurmaCurso(turmaCurso3);
 
         Matricula matricula1 = new Matricula(findEstudanteById(1), "3/1/2023", findTurmaCursoById(1));
