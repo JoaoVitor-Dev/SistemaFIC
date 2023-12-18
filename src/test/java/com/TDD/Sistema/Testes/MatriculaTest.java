@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @ExtendWith(MockitoExtension.class)
-public class MatriculaServiceTest {
+public class MatriculaTest {
     @InjectMocks
     MatriculaService matriculaService;
 
